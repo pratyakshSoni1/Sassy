@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/toastViewGrounp"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:background="#000000"
+    android:background="#00FFFFFF"
+    android:paddingBottom="32dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/check_circle" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/alef"
+            android:textColor="@color/white"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:textSize="22sp"
+            android:text="Added to cart" />
+    </LinearLayout>
+
+</FrameLayout>
